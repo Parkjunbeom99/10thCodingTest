@@ -156,6 +156,9 @@
   <ItemGroup>
     <ClCompile Include="_10thCodingTest.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="CHAP00\Chap00_concept.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
