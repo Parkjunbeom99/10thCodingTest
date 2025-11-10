@@ -154,6 +154,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CHAP00\Chap001.cpp" />
+    <ClCompile Include="CHAP00\Chap002.cpp" />
     <ClCompile Include="_10thCodingTest.cpp" />
   </ItemGroup>
   <ItemGroup>
