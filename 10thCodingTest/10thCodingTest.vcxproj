@@ -156,10 +156,15 @@
   <ItemGroup>
     <ClCompile Include="CHAP00\Chap001.cpp" />
     <ClCompile Include="CHAP00\Chap002.cpp" />
+    <ClCompile Include="Concept\01\Week01.cpp" />
+    <ClCompile Include="Concept\02\02BFS.cpp" />
+    <ClCompile Include="Concept\02\02DFS.cpp" />
     <ClCompile Include="_10thCodingTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CHAP00\Chap00_concept.txt" />
+    <Content Include="Concept\01\Week01.txt" />
+    <Content Include="Concept\02\02.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
