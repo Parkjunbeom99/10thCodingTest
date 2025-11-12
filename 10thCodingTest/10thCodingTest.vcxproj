@@ -154,17 +154,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CHAP00\Chap001.cpp" />
-    <ClCompile Include="CHAP00\Chap002.cpp" />
-    <ClCompile Include="Concept\01\Week01.cpp" />
-    <ClCompile Include="Concept\02\02BFS.cpp" />
-    <ClCompile Include="Concept\02\02DFS.cpp" />
-    <ClCompile Include="_10thCodingTest.cpp" />
+    <ClCompile Include="10thCodingTest.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\05\05.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="_10thCodingTest.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\00\Chap001.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\00\Chap002.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\01\Week01.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\02\02BFS.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\02\02DFS.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\03\03.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\04\04.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CHAP00\Chap00_concept.txt" />
+    <Content Include="Concept\00\Chap00_concept.txt" />
     <Content Include="Concept\01\Week01.txt" />
     <Content Include="Concept\02\02.txt" />
+    <Content Include="Concept\03\03.txt" />
+    <Content Include="Concept\04\04.txt" />
+    <Content Include="Concept\05\05.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

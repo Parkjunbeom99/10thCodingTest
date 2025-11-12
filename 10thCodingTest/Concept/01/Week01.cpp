@@ -30,8 +30,3 @@ int Q1(int a, int b)
     
 }
 
-
-int main()
-{
-    
-}
