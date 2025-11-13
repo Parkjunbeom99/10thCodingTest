@@ -160,6 +160,12 @@
     <ClCompile Include="Concept\05\05.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Concept\06\06.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Concept\07\07.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="_10thCodingTest.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -192,6 +198,8 @@
     <Content Include="Concept\03\03.txt" />
     <Content Include="Concept\04\04.txt" />
     <Content Include="Concept\05\05.txt" />
+    <Content Include="Concept\06\06.txt" />
+    <Content Include="Concept\07\07.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
